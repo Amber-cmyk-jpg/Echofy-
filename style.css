@@ -1,0 +1,1419 @@
+.header{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    position: sticky !important;
+    z-index: 460;
+    position: fixed;
+    margin: auto;
+}
+.container1{
+display: flex;
+justify-content: space-between;
+vertical-align: middle;
+max-width: 100%;
+font-size: 14px;
+    min-height: 54px;
+    background-color: #262626;
+    z-index: 100;
+    line-height: 54px;
+    margin-bottom: 1px;
+    position: sticky !important;
+    z-index: 460;
+    position: fixed;
+    position: static !important;
+}
+.header-menu{
+    list-style-type: none;
+    vertical-align: middle;
+    padding-right: 30px;
+}
+.header__logo{
+    display: inline-block;
+padding-left: 50px;
+}
+body{
+    margin: 0%;
+}
+.logo{
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 12px;
+    background-color: #262626;
+    z-index: 100;
+    line-height: 54px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;}
+
+
+.btn-1 {
+    box-shadow: 0 2px 0 #6f9a37;
+    background-color: #82b440;
+    font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    color: white;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.first-items{
+     background-image: url(https://echofyy.netlify.app/images/banner-bg.jpg);
+     background-size: cover;
+     background-position: center;
+        height: 760px;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    .container2{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        vertical-align: middle;
+        margin-left: 100px;
+        line-height: 54px;
+    }
+    .location{
+    width: 25%;
+    padding: 5px 10px;
+    
+}
+    .address{
+        color: white;
+        font-size: 15px;
+         gap: .25rem;
+         font-family: Albert Sans, sans-serif;
+         display: inline-block;
+         margin: 5px;
+}
+.mailbox{
+    width: 25%;
+    padding-top: 5px;
+    text-align: left;
+}
+.mail{
+        font-size: 15px;
+        font-family: Albert Sans, sans-serif;
+         gap: .5rem;
+         color: white;
+         display: inline-block;
+         margin: 5px;
+         cursor: pointer;
+}
+.phone{
+    width: 25%;
+    padding-top: 5px;
+    text-align: right;
+}
+.number{
+        font-size: 15px;
+        font-family: Albert Sans, sans-serif;
+         gap: .5rem;
+         color: white;
+         display: inline-block;
+         margin: 5px;
+         cursor: pointer;
+}
+.social-icon{
+    width: 25%;
+    padding-top: 5px;
+    text-align:left;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.icon33{
+    padding-top: 15px;
+    margin-left: 5px;
+}
+.icon32{
+    margin-left: 5px;
+}
+.container3{
+        max-width: 100%;
+        display: flex;
+        height: 100px;
+        vertical-align: middle;
+        position: sticky !important;
+        position: fixed;
+    }
+ul li{
+    color: white;
+    cursor: pointer;
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    font-size: 16px;
+    font-family: Albert Sans, sans-serif;
+    padding-right: 15px;
+     overflow: x hidden;
+}
+li:hover{
+    color: #6f9a37;
+}
+.btn-2 {
+    background-color: #82b440;
+    font-size: 16px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    color: white;
+    display: inline-block;
+    margin: 15;
+    border: none;
+    border-radius: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+}
+.btn-2:hover{
+    background-color: black;
+}
+.icon5{
+    margin: 15px;
+}
+.container3-logo{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+.container3-items{
+display: flex;
+width: 50%;
+justify-content: right;
+}
+.para2{
+    color: #79b900;
+    transform: translate(0);
+    opacity: 1;
+    font-size: 16px;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 500;
+}
+.para3{
+    color: white;
+}
+.head1{
+    color: white;
+    font-size: 50px;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: 800;
+    margin-top: -1.25rem;
+}
+.btn-3 {
+    line-height: 1.5;
+    color: white;
+    margin: 15;
+    cursor: pointer;
+    height: 50px;
+    width: 170px;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+    --tw-border-opacity: 1;
+    --tw-bg-opacity: 1;
+    background-color: rgb(121 185 0 / var(--tw-bg-opacity));
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.5s;
+    gap: 0.5rem;
+    overflow: hidden;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: rgb(121 185 0 / var(--tw-border-opacity));
+}
+.btn-3:hover{
+    background-color: black;
+}
+.icon6{
+    --tw-text-opacity: 1;
+    color: rgb(121 185 0 / var(--tw-text-opacity));
+    cursor: pointer;
+    margin-left: 20px;
+}
+.para4{
+color: white;
+font-weight: 500;
+font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: "Albert Sans", sans-serif;
+    margin-left: 20px;
+}
+.watch
+{
+    display: flex;
+
+    vertical-align: middle;
+
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 100%;
+    min-width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+     z-index: 10;
+    width: 700px;
+    height: 600px;
+}
+.icon5{
+    cursor: pointer;
+}
+.slider {
+    --duration: 50s;
+    --gap: 0px;
+    display: flex;
+    user-select: none;
+    overflow: hidden;
+    gap: 0px;
+    text-align: center;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 100%;
+    height: 100px;
+    background-color: #79b900;
+}
+.slider h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: "Albert Sans", "sans-serif";
+}
+.card{
+    background-image: url(https://echofyy.netlify.app/images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    max-width: 100%;
+}
+.fl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: middle;
+    max-width: 90%;
+    margin: auto;
+}
+.floating-card{
+    position: relative;
+    top: 60px;
+    border-radius: 20px;
+max-width: 40%;
+text-align: center;
+display: inline-block;
+height: 600px;
+}
+.floating-card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.badge{
+    position: absolute;
+    bottom: 100px;
+    left: -5px;
+    background: #e8efed;
+    color: white;
+    border-radius: 5px;
+}
+.about{
+    width: 40%;
+    height: 700px;
+}
+.about1{
+color: #79b900;
+font-weight: 500;
+ font-family: "Albert Sans", sans-serif;
+  gap: 0.5rem;
+   align-items: center;
+   font-size: 16px;
+   display: inline-block;
+   
+}
+.about2{
+    color: #001819;
+    font-size: 40px;
+    font-family: "Albert Sans", sans-serif;
+    margin: 5px 0px 12px;
+}
+.about3{
+    color: #001819;
+    font-size: 24px;
+    font-family: "Albert Sans", sans-serif;
+    margin: -8px 10px 0px;
+    display: inline-block;
+}
+.about4{
+    color: #868681;
+    font-size: 16px;
+    font-family: "Albert Sans", sans-serif;
+    padding: 12px 0px 0px;
+}
+.btn-4 {
+    line-height: 1.5;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    height: 50px;
+    width: 190px;
+    z-index: 10;
+    align-items: center;
+    --tw-border-opacity: 1;
+    --tw-bg-opacity: 1;
+    background-color: rgb(121 185 0 / var(--tw-bg-opacity));
+    padding: 14px 40px;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.5s;
+    gap: 0.5rem;
+    overflow: hidden;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: rgb(121 185 0 / var(--tw-border-opacity));
+}
+.btn-4:hover{
+    background-color: black;
+}
+.leaf{
+    margin-left: 100px;
+}
+	
+    .service{
+    background-image: url(https://echofyy.netlify.app/images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 860px;
+   max-width: 100%;
+
+}
+.arrow-btn img{
+    width: 70px;
+    height: 70px;
+}
+hr{
+    display: block;
+    margin-block-start: 3.5em;
+    margin-block-end: 3.5em;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    width: 80%;
+}
+.service1{
+    width: 70%;
+}
+.arrow-btn{
+    width: 20%;
+}
+.services{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.service-card1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.plantation-card{
+    background:rgb(245 248 237);
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 350px;
+    text-align: left;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+.plantation-card:hover{
+    transform: translateY(-5px);
+    background-color: black;
+    color:#868681;
+}
+.plantation-card :nth-child(1){
+width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.plantation-card h2{
+    margin: 15px 0 0px;
+    color: #001819;
+}
+.plantation-card h2:hover{
+    color: white;
+}
+.plantation-card hr{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    --tw-bg-opacity: 1;
+    background-color: #79b900;
+    content: var(--tw-content);
+    width: 2rem;
+    margin-left: 1px;
+    color: #79b900;
+}
+.right{
+    margin-left: 200px;
+    margin-top: -5px;
+}
+.service-card2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.service-card3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.section-cards{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin:  auto;
+}
+.right2{
+    margin-left: 270px;
+    margin-top: -80px;
+}
+.card2{
+    background-color: rgb(245 248 237);
+    height: auto; 
+    max-width: 100%;
+}
+.sk{
+    max-width: 80%;
+display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:  auto;
+    padding-top: 50px;
+
+}
+.ab1{
+color: #79b900;
+font-weight: 500;
+ font-family: "Albert Sans", sans-serif;
+  gap: 0.5rem;
+   font-size: 16px;
+   display: inline-block;
+}
+.ab2{
+    color: #001819;
+    font-size: 40px;
+    font-family: "Albert Sans", sans-serif;
+}
+.ab3{
+    color: #001819;
+    font-size: 24px;
+    font-family: "Albert Sans", sans-serif;
+}
+.ab4{
+    color: #868681;
+    font-size: 16px;
+    font-family: "Albert Sans", sans-serif;
+    gap: 0.5rem;
+}
+.skill-image{
+width: 50%;
+position: relative;
+}
+.skill-image :nth-child(2){
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.skill-image :nth-child(3){
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+.skill{
+    width: 40%;
+}
+
+.safe-badge{
+display: flex;
+gap: 20px;
+margin-top: 10px;
+margin-left: 15px;
+}
+.safe-badges{
+    background: #ffffff;
+    border:none;
+    padding: 20px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #001819;
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+    font-family: "Albert Sans", sans-serif;
+}
+.badge span{
+    font-size: 18px;
+}
+.safe-badges:hover{
+    background-color: #9cc658;
+    color: #f5f7f1;
+}
+.btn-circle1{
+        display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(141, 134, 122);
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    padding-top: -0%;
+    cursor: pointer;
+    background-color: #79b900;
+}
+.btn-circle1 :hover{
+    background-color: white;
+    color: #79b900;
+}
+.progress{
+    width: 500px;
+    margin-top: 50px;
+}
+.progress-label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: #001819;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: "Albert Sans", sans-serif;
+    padding: 0 0 12px;
+    font-weight: 500;
+}
+.progress-bar{
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 10px;
+    width: 550px;
+    margin-left: 10px;
+}
+.progress2{
+    background-color: #72c02c;
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s ease;;
+}
+.status{
+    background-image: url(	https://echofyy.netlify.app/images/counter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.stat{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.status-box{
+    text-align: center;
+    width: 200px;
+    margin: 5px;
+    color: white;
+}
+.status-icon{
+    font-size: 30px;
+    padding: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+.status-box h2{
+    font-size: 46px;
+    margin: 10px 0 5px;
+}
+.status-box p{
+    font-size: 20px;
+    margin: 0;
+}
+.arrow-btn2{
+    display: inline-block;
+width: 30;
+
+}
+.project{
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content:space-between;
+vertical-align: middle;
+margin: auto;
+padding-top: 10px;
+}
+.project1{
+    width: 60%;
+    vertical-align: middle;
+}
+.card3{
+    background-image: url(https://echofyy.netlify.app/images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    margin: 0%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+   
+}
+.car3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+     justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+.project-cards{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+.pro-card1{
+    display: flex;
+    flex-wrap: wrap;
+box-sizing: border-box;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 400px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+.pro-card2{
+    display: flex;
+    flex-wrap: wrap;
+box-sizing: border-box;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 400px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+.pro-card3{
+    display: flex;
+    flex-wrap: wrap;
+box-sizing: border-box;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    width: 400px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+.pro-card:hover{
+    transform: translateY(-5px);
+    background-color: rgb(23, 172, 23);
+    color:#868681; 
+}
+.pro-cards{
+    width: 200px;
+    height: 130px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #f5f7f1;
+    line-height: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+    align-items: center;
+}
+.pro-cards :nth-child(1){
+    font-size: 16px;
+    color: #868681;
+    font-family: "Albert Sans", sans-serif;
+}
+.pro-cards :nth-child(2){
+    font-size: 20px;
+    color: black;
+    font-family: "Albert Sans", sans-serif;
+    font-weight: bold;
+}
+.pro-cards :hover{
+    background-color: #79b900;
+    color: white;
+}
+.pro-cards :nth-child(3){
+    font-size: 16px;
+    color: #fcfcf9;
+    font-family: "Albert Sans", sans-serif;
+}
+.working1{
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.working-process{
+    text-align: center;
+}
+.working-process2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin:  auto;  
+}
+.working2{
+    width: 300px;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+.working2 :nth-child(2){
+    font-family: "Albert Sans", sans-serif;
+}
+.working2 :nth-child(3){
+    font-family: "Albert Sans", sans-serif;
+    color: #868681;
+}
+.test{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(245 248 237);
+    height: 760px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+     z-index: 10;
+     position: relative;
+}
+.leaves1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.leaves2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.leaves3{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.leaves4{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.webs1{
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.webs2{
+    width: 600px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.develop{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.web-img{
+    width: 20%;
+    height: 350px;
+}
+.web2{
+    width: 70%;
+    height: 350px;
+}
+.web:hover{
+    background-color: #79b900
+}
+.web2 p{
+    font-size: 16px;
+    color: #868681;
+    font-family: "Albert Sans", sans-serif;
+    line-height: 1.5;
+}
+.web2 h2{
+    font-family: "Albert Sans", sans-serif;
+}
+.worlds{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    height: auto;
+    overflow-x: hidden;
+}
+.world{
+    background-image: url(	https://echofyy.netlify.app/images/brand-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80%;
+    height: 300px;
+    justify-content: center;
+    padding: auto;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    overflow-x: hidden;
+}
+.world h2{
+    font-family: "Albert Sans", sans-serif;
+    color: white;
+}
+.circle{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.dots{
+    text-align: center;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.3s;
+    border: 2px solid #8dc63f;
+    cursor: pointer;
+}
+.dot :hover{
+background-color: #8dc63f;
+transform: scale(1.2);
+}
+.card4{
+    background-image: url(https://echofyy.netlify.app/images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    max-width: 100%;
+}
+.car4{
+ width: 90%;
+ display: flex;
+ flex-wrap: wrap;
+ vertical-align: middle;
+ align-items: center;
+ justify-content: center;
+}
+.team{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #e7e7e3;
+    position: relative;
+    align-items: center;
+}
+.team img{
+    position: absolute;
+    top: -150px;
+    left: 20px;
+}
+.teams{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    vertical-align: middle;
+    justify-content: space-around;
+    margin: auto;
+}
+.team h2{
+    font-family: "Albert Sans", sans-serif;
+}
+.team p{
+    color: #79b900;
+    font-family: "Albert Sans", sans-serif;
+}
+.team1{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+}
+.btn-circle2{
+        display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(141, 134, 122);
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #c8cbc2;
+}
+.btn-circle2:hover{
+    background-color: #79b900;
+}
+.blog{
+    width: 100%;
+    height: 200px;
+  display: flex;  
+    vertical-align: middle;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blogs{
+    margin: auto;
+    padding: auto;
+}
+.btn-5 {
+    line-height: 1.5;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    height: 50px;
+    width: 220px;
+    z-index: 10;
+    align-items: center;
+    --tw-border-opacity: 1;
+    --tw-bg-opacity: 1;
+    background-color: rgb(121 185 0 / var(--tw-bg-opacity));
+    padding: 14px 40px;
+    font-family: "Albert Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.5s;
+    gap: 0.5rem;
+    overflow: hidden;
+    border-radius: 9999px;
+    border-width: 1px;
+    border-color: rgb(121 185 0 / var(--tw-border-opacity));
+}
+.btn-5:hover{
+    background-color: black;
+}
+.top10{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:center;
+    margin: auto;
+}
+.tops{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid #868681
+}
+.date{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    text-align: justify;
+}
+.date p{
+color: #c8cbc2;
+    font-family: "Albert Sans", sans-serif;
+}
+.date h2{
+   font-family: "Albert Sans", sans-serif; 
+}
+.date h2:hover{
+    color: #79b900;
+}
+.btn-circle3{
+        display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(141, 134, 122);
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #79b900;
+}
+.name{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+.name h3:hover{
+    cursor: pointer;
+    color: #79b900;
+}
+.name span:hover{
+    cursor: pointer;
+    color: #79b900
+}
+.footer{
+    max-width: 100%;
+    height: auto;
+    background-color: #001819;
+    margin-top: 50px;
+}
+.fr{
+    max-width: 90%;
+    height: auto;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.footer1{
+    background-image: url(	https://echofyy.netlify.app/images/footer-social.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 80%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 1px solid #79b900;
+    margin: auto;
+    border-radius: 10px;
+}
+.footer3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    vertical-align: middle;
+    max-width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    font-family: "Albert Sans", sans-serif;
+}
+.ftr{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    vertical-align: middle;
+    font-family: "Albert Sans", sans-serif; ;
+}
+.ftrs1{
+max-width: 20%;
+color: white;
+}
+.ftrs2{
+max-width: 20%;
+}
+.ftrs2 p{
+    cursor: pointer;
+    color: #868681;
+}
+.ftrs2 p:hover{
+    color: #79b900;
+}
+.ftrs2 h2{
+    color: white;
+}
+.ftrs3{
+max-width: 20%;
+color: white;
+}
+.ftrs3 p{
+    cursor: pointer;
+    color: #868681;
+}
+.ftrs3 p:hover{
+    color: #79b900;
+}
+.ftrs3 h2{
+    color: white;
+}
+.ftrs4{
+max-width: 20%;
+color: white;
+}
+.ftrs4 p{
+    color: #868681;
+}
+.btn-circle4{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(141, 134, 122);
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #79b900;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.btn-circle4:hover{
+    background-color: white;
+    color: #79b900;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #79b900;
+    border-radius: 30px;
+    background-color: #001819;
+    padding: 20px;
+    color: white;
+}
+@media screen and (max-width:768px)
+{
+    .container2{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .btn-2{
+display: none;
+}
+}
+@media screen and (max-width:768px)
+{
+    .badge{
+        display: none;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .container2{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .about img{
+        display: none;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .btn-4{
+display: none;
+}
+}
+@media screen and (max-width:768px)
+{
+    .floating-card img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .about{
+        width: 100%;
+        font-size: smaller;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+@media screen and (max-width:768px)
+{
+  .service-card2{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .service-card3{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .sk{
+    flex-direction: column;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .skill{
+    flex-direction: column;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .xs{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+    .status{
+        width: 100%;
+        padding: 0px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .stat{
+        justify-content: center;
+        padding: 0px;
+    }
+}
+@media screen and (max-width:768px)
+{
+  .pro-card2{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .pro-card3{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .leaves2{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .leaves4{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .webs2{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .leaves5{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .ftrs2{
+    display: none;
+  }  
+}
+@media screen and (max-width:768px)
+{
+  .ftrs3{
+    display: none;
+  }  
+}
